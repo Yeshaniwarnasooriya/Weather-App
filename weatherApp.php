@@ -24,11 +24,9 @@
                     $weather .= "<b>Current Time : </b>" .date("F j, Y, g:i a");
                 }
                 else {
-                    $error = "The name entered is not valid";
+                    $error = "The city entered is not valid";
                 }
                 
-
-
         }
     }
 
@@ -49,13 +47,10 @@
 
 </head>
 
-
-
-
 <body>
 
     <div class="container">
-        <h1>Search Global Weather</h1>
+        <h1>Weather Report</h1>
 
         <form action="" method="GET">
             <label for="city" style="padding-bottom:20px;">Enter the City</label>
@@ -76,13 +71,10 @@
                         </div>';
                     }
 
-                    
                 ?>
             </div>
         </form>
     </div>
-
-
 
     <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
