@@ -18,7 +18,7 @@
                     $weather .= "<b>Atmospheric Pressure : </b>" .$weatherArray['main']['pressure']." hPa <br>";
                     $weather .= "<b>Wind Speed : </b>" .$weatherArray['wind']['speed']." ms<sup>-1</sup> <br>";
                     $weather .= "<b>Cloudness : </b>" .$weatherArray['clouds']['all']." % <br>";
-                    date_default_timezone_set('UTC');
+                    date_default_timezone_set('Asia/Sri Lanka');
                     $sunrise = $weatherArray['sys']['sunrise'];
                     $weather .= "<b>Sunrise : </b>" .date("g:i a", $sunrise) ."<br>";
                     $weather .= "<b>Current Time : </b>" .date("F j, Y, g:i a");
