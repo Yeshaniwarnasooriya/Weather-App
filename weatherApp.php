@@ -25,11 +25,9 @@
                 }
                 else {
                     $error = "The city entered is not valid";
-                }
-                
+                }        
         }
     }
-
 ?>
 
 <!doctype html>
@@ -70,7 +68,6 @@
                         '. $error.'
                         </div>';
                     }
-
                 ?>
             </div>
         </form>
